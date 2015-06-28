@@ -1,8 +1,9 @@
 # CatGenerator
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cat_generator`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+CatGenerator generates random cat photos and facts about cat. It communicates with:
+```
+http://thecatapi.com/
+http://catfacts-api.appspot.com/
+```
 
 ## Installation
 
@@ -22,7 +23,32 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To get the next cat photo url:
+```ruby
+CatGenerator::Photo.url
+```
+
+To open the next cat photo in a browser:
+```ruby
+CatGenerator::Photo.open_in_browser
+```
+
+To save the next cat photo on your desktop:
+```ruby
+CatGenerator::Photo.write_to_desktop
+```
+
+To get the next cat fact:
+```ruby
+CatGenerator::Fact.next
+```
+
+You can run the executable in terminal:
+```bash
+bundle exec cat_generator [browser|file|fact]
+```
+
+it will open the photo in browser by default if no option is given
 
 ## Development
 
