@@ -7,19 +7,24 @@ http://catfacts-api.appspot.com/
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'cat_generator'
-```
+The gem is not yet available on rubygems so to use it clone the project:
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Build the gem:
 
-    $ gem install cat_generator
+    $ gem build cat_generator.gemspec
+
+This will generate a gem file
+```
+cat_generator-x.x.x.gem
+```
+
+Then run:
+
+    $ gem install cat_generator-x.x.x.gem
 
 ## Usage
 
