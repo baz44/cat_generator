@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/baz44/cat_generator.svg?branch=master)](https://travis-ci.org/baz44/cat_generator)
+
 # CatGenerator
 CatGenerator generates random cat photos and facts about cat. It communicates with:
 ```
