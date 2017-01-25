@@ -2,3 +2,7 @@ language: ruby
 rvm:
   - 2.0.0
 before_install: gem install bundler -v 1.10.5
+notifications:
+  email:
+    on_success: never
+    on_failure: always
