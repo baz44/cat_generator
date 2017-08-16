@@ -8,8 +8,12 @@ http://catfacts-api.appspot.com/
 ```
 
 ## Installation
+Download from rubygems:
 
-The gem is not yet available on rubygems so to use it clone the project:
+    $ gem install cat_generator
+
+
+Or clone the project:
 
 And then execute:
 
